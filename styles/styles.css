@@ -1,7 +1,6 @@
 :root {
-  --heading-background-color: rgb(243, 201, 201);
+  --heading-background-color: rgb(247, 159, 174);
   --heading-text-color: #333;
-  --heading-font: 'Montserrat', Helvetica, sans-serif;
   --padding: 1rem;
   --border: 1px solid rgba(8, 8, 8, 0.1);
 }
@@ -15,13 +14,14 @@ nav a{
     padding: 20px;
 }
 h1{
-    background-color: var(--heading-background-color);
-    color: rgb(2, 2, 2);
+    width: 480px;
+    color: rgb(247, 159, 174);
+    border-bottom: 1px solid rgb(247, 159, 174);
     margin-top: 0;
     margin-bottom: 30px;
+    /* background-color: rgb(243, 201, 201);;
     border: 1px solid rgb(250, 200, 217);
-    box-shadow: 0 0 10px rgb(247, 137, 125);
-    font:var(--heading-font);
+    box-shadow: 0 0 10px rgb(247, 135, 123); */
     font-size:xx-large;
 }
 p{
@@ -33,27 +33,28 @@ body{
 }
 
 main img{
-    display: block;
     width: 150px;
     height: auto;
-    margin: auto;
+    margin: 5px 5px 5px 20px;
     border: 1px solid rgb(235, 73, 73);
     padding: 2px;
-    box-shadow: 0 0 30px rgb(248, 113, 113);
+    box-shadow: 0 0 30px rgb(243, 77, 77);/*rgb(248, 113, 113);*/
+    float: right;
 }
 main{
-    text-align: center;
-    position: relative;
-    top: 0; left:34%; 
+    text-align: left;
+    margin: 50px;
+    position :relative;
+    left:52%; 
     max-width: 840px;
     width: 500px;
 }
-div.intro{
+/* div.intro{
     margin: 10px 15px 45px 15px;
     background-color: rgb(252, 195, 195);
     padding: 20px;
-    border: 1px solid rgb(146, 112, 112);
-}
+    border: 1px solid rgb(146, 112, 112); 
+}*/
 aside{
     display: block;
     width: 400px;
