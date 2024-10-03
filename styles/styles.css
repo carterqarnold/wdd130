@@ -1,9 +1,9 @@
 :root {
-  --light-pink-color: rgb(247, 159, 174);
-  --heading-text-color: #333;
+  --dark-pink-color: rgb(247, 25, 62);
+
 }
 nav{
-    background-color: var(--light-pink-color);
+    background-color: rgb(240, 22, 22);
     padding: 10px;
 }
 nav a{
@@ -13,8 +13,8 @@ nav a{
 }
 h1{
     width: 480px;
-    color: rgb(247, 159, 174);
-    border-bottom: 1px solid var(--light-pink-color);
+    color: var(--dark-pink-color);/*rgb(248, 147, 164) */
+    border-bottom: 1px solid var(--dark-pink-color);
     margin-top: 0;
     margin-bottom: 30px;
     font-size:xx-large;
@@ -39,19 +39,20 @@ main{
     text-align: left;
     margin: 50px;
     position :relative;
-    left:52%; 
+    left:48%; 
     max-width: 840px;
     width: 500px;
 }
 aside{
-    display: block;
+    display: inline-block;
     width: 400px;
-    margin: 0 auto;
     border: 1px solid rgb(59, 56, 56);
     padding: 10px;
     background-color: rgb(248, 197, 204);
     color: black;
     text-align: center;
+    position:absolute;
+    top: 250px; left: 350px;
 }
 aside img{
     width: 200px;
@@ -62,7 +63,7 @@ aside img{
     text-align: center;
 }
 footer{
-    margin-top: 15px;
+    margin-top: 260px;
     border-top: 1px solid black;
     text-align: center;
     color: rgb(56, 51, 51);
