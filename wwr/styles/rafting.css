@@ -16,6 +16,7 @@ body{
     text-decoration: none;
     max-width : 1000px;
     padding-left: 190px;
+    padding-right: 190px;
 }
 .hero{
     position: relative;
@@ -39,12 +40,12 @@ article img{
 
 h1{
     position: absolute;
-    left: 520px;
-    letter-spacing: 2px;
+    left: 545px; top: 1px;
+    letter-spacing: 1px;
     color: rgb(253, 250, 250);
     font-family: "Alegreya Sans", sans-serif;
-    font-weight: 700;
-    font-style: italic;
+    font-weight: 300;
+    font-style: normal;
 }
 
 h2{
