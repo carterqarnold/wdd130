@@ -14,6 +14,7 @@
     border : black solid 1px;
     }
     .nav {
+        margin-left: 300px;
     color : black;
     display : flex;
     justify-content : space-around;
@@ -34,7 +35,7 @@
     }
     header {
     display : grid;
-    grid-template-columns : 580px 300px;
+    grid-template-columns : 500px 400px 300px;
     grid-template-rows : 180px;
     justify-content : center;
     align-items : center;
@@ -62,7 +63,7 @@
         padding: 15px;
         height: 8em;
         width: 68.5em;
-        background-color : rgba(104, 104, 104, 0.5);
+        background-color : #68686880;
         position : relative;
         top : -17em;
         left: -11.5rem;
@@ -70,7 +71,7 @@
     .history_grid{
         display: grid;
         grid-template: 20%/35% 30% 35%;
-        background-color: rgb(131, 131, 134);
+        background-color: rgb(161, 161, 168);
         margin-top: 330px;
         min-width: 73.15em;
         padding: 15px;
@@ -102,7 +103,7 @@
         height: 14rem;
         justify-content: space-around;
         text-align: center;
-        background-color: #07ADB3;
+        background-color: #9fb6d8;
         margin: 1rem 0;
         
     }
@@ -180,11 +181,11 @@
     font-style : italic;
     }
     .purpose {
-    color : #07d5f0;
+    color : #f5f5f7;
     text-shadow : none;
     }
     p {
-    color : #570475;
+    color : #27043b;
     font-family : "Roboto", system-ui;
     font-weight : 400;
     font-style : normal;
