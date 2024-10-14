@@ -191,15 +191,19 @@
     font-style : normal;
     }
     footer{
+        width: 75rem;
+        height: 5rem;
+        background-color: #8b898980;
         border: none;
         display: grid;
-        grid-template-columns: 35% 35% 50%;
+        grid-template-columns: 30% 30% 45%;
     }
     .copyright{
         grid-column: 2;
         align-self: center;
     }
     .social_links_nav{
+        align-self: center;
         grid-column: 3;
     }
     .social_links{
