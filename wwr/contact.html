@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contact Us Page (created with the intent of learning how to better create a web page)">
+        <meta name="author" content="Carter Arnold">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="styles/rafting.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="logo" class="header_grid_item gitem1" src="images/Rapids_logo.jpg" alt="Rapids-logo" width="130">
+            <nav class="nav">
+                <a class="header_grid_item gitem2" href="index.html">Home</a>
+                <a class="header_grid_item gitem3" href="about.html">About Us</a>
+                <a class="header_grid_item gitem4" href="trips.html">Trips</a>
+                <a class="header_grid_item gitem5" href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h1>Contact Us</h1>
+            </div>
+            <div class="control">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10433.011676284626!2d-122.39637061473962!3d40.583409011338155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d2ece04e89a83f%3A0x3bfde1db345680d1!2s1554%20East%20St%2C%20Redding%2C%20CA%2096001!5e0!3m2!1sen!2sus!4v1729293835846!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <form>
+                    <h2 class="questions">Send Questions or Suggestions</h2>
+                    <div class="form_item column2">
+                        <label for="fullname">Full Name:</label> 
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form_item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                    <div class="second_section">
+                        <h2 class="do_for_you">What Can We Do For You?</h2>
+                        <div class="radio">
+                            <input type="radio" id="general_questions" name="do_for_you" value="General Questions">
+                            <label for="general_questions">General Questions</label><br>
+                            <input type="radio" id="do_better" name="do_for_you" value="What we can do better">
+                            <label for="what we can do better">What we can do better</label><br>
+                            <input type="radio" id="needed_user_info" name="do_for_you" value="Needed User Information">
+                            <label for="needed user information">Needed User Information</label>
+                        </div>
+                        <div class="form_item2 column1 browser">
+                            <label for="browser">How do you like our website?</label>
+                            <select name="browser" id="browser">
+                                <option value="google">Great!</option>
+                                <option value="firefox">Good</option>
+                                <option value="safari">Middle</option>
+                                <option value="safari">Bad</option>
+                            </select>
+                        </div>
+                        <div class="form_item2 places">
+                            <textarea name="feedback" id="feedback" rows="4" placeholder="Type here:"></textarea>
+                        </div>
+                        <div class="form_item2 column1 newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Subscribe to our Newsletter</label>
+                        </div>
+                        <button type="submit">Submit feedback or questions</button>
+                    </div>
+                </form>
+            </div>
+            <section class="contact_info">
+                <h2 class="contact_info_title">Phone/Email</h2>
+                <p class="contact_info_item2">Phone: 333-333-3333</p>
+                <p class="contact_info_item3">Email: rapids_adventure@gmail.com</p>
+                <h2>Address</h2>
+                <p>Address: 1554 East St Redding, California</p>
+            </section>
+            <section class="meet_us_grid adventure_grid">
+                <h2 class="meet_us_title meet_us adventure_grid_title">Meet The Instructors</h2>
+                <figure class="meet_us_img1 adventure_grid_img1">
+                    <img class="meet_us_img1 adventure_grid_img1" src="images/happy employee1.jpg" alt="rafting employee image">
+                    <figcaption>rafting img</figcaption>
+                </figure>
+                <figure class="meet_us_img2 adventure_grid_img2">
+                    <img class="meet_us_img2 adventure_grid_img2" src="images/pexels-workman-18518084profile.jpg" alt="rafting employee image 2">
+                    <figcaption>rafting img</figcaption>
+                </figure>
+                <figure class="meet_us_img3 adventure_grid_img3">
+                    <img class="meet_us_img3 adventure_grid_img3" src="images/happy employee2.jpg" alt="rafting employee image 3">
+                    <figcaption>rafting img</figcaption>
+                </figure>
+            </section>
+        </main>
+        <footer class="second_footer">
+            <p class="copyright">©️2024 | The Rapids | Carter Arnold</p>
+            <nav class="social_links_nav">
+                <a class="social_links" href="https://www.pinterest.com/">
+                    <img src="images/64px-Pinterest.svg.png" alt="Pinterest">
+                </a>
+                <a class="social_links" href="https://facebook.com">
+                    <img src="images/64px-2021_Facebook_icon.svg.png" alt="Facebook">
+                </a>
+                <a class="social_links" href="https://www.instagram.com/">
+                     <img src="images/64px-Instagram_logo_2016.svg.png" alt="Instagram">
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>
