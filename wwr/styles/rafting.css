@@ -14,7 +14,8 @@
     border : black solid 1px;
     }
     .nav {
-        margin-left: 300px;
+        margin-left: 18rem;
+    grid-column: 2;
     color : black;
     display : flex;
     justify-content : space-around;
@@ -30,19 +31,20 @@
 
     a{
     color : black;
-    padding : 4px;
-    border-left : 0.5px solid black;
-    padding-left: 10px;
+    padding: .4rem;
+    border-left : 0.05rem solid black;
+    padding-left: .55rem;
     }
 
     header {
     display : grid;
-    grid-template-columns : 500px 400px 300px;
-    grid-template-rows : 180px;
+    grid-template-columns : 30rem 20rem 20rem;
+    grid-template-rows : 11rem;
     justify-content : center;
     align-items : center;
     background-color : #e71d1d;
-    width : 1200px;
+    height: 11rem;
+    width : 75rem;
     margin-right: .1%;
     }
 
@@ -50,7 +52,7 @@
     background-color : white;
     display : block;
     text-decoration : none;
-    max-width : 70rem;
+    max-width : 75rem;
     }
 
     .hero {
@@ -83,8 +85,7 @@
         min-width: 73.15em;
         padding: 15px;
     }
-    .history_grid_t
-    itle{
+    .history_grid_title{
         grid-column: 2;
         justify-self: center;
         align-self: center;
@@ -258,7 +259,7 @@
     }
 
     .radio{
-        padding: 20px;
+        padding: 2rem;
     }
 
     #general_questions{
@@ -277,6 +278,10 @@
         padding: 0.5rem;
         font-size: 1rem;
     }  
+
+    button{
+        width: 15.5rem;
+    }
 
     select{
         margin-left: 5%;
@@ -355,7 +360,7 @@
 
     #contact{
     background-color: white;
-    margin: 12% 12% 12% 14%;
+    margin: 12% 12% 12% 12%;
     }
 
     .wireframe_link{
