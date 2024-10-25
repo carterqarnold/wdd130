@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Carter Arnolds assignment Rafting Site Plan for WDD 130 Web Fundamentals. Purpose: creating and enhancing a rafting site plan.">
+        <meta name="description" content="Carter Arnolds assignment Home page for WDD 130 Web Fundamentals. Purpose: creating and enhancing a Home page.">
         <meta name="author" content="Carter Arnold">
         <title>The Rapids Adventure | Home</title>
         <link rel="stylesheet" href="styles/rafting.css">
@@ -29,45 +29,37 @@
                         <h2 class="call_to_action">BOOK A RAFTING ADVENTURE TRIP FOR YOUR FAMILY REUNIONS, CORPORATE EVENTS, PRIVATE TOURS AND MUCH MORE!
                         </h2>
                     </article>
-                <button class="trip_link_button" type="submit"> <a class="trip_link" href="trips.html">Book the trip of a lifetime, NOW!</a>
-                </button>
+                <a class="trip_link" href="trips.html">Book the trip of a lifetime, NOW!</a>
             </div>
+            <div class="extra_grid">
+                <img class="extra_grid_img1" src="images/rafting4.jpg" alt="history img" width="300">
+                <img class="extra_grid_img2" src="images/rafting-under100kb.jpg" alt="rafting_ing" width="300">
+                <p class="extra_grid_item2">We love you! Our About Us page has many insights into the beauty and life of The Rapids Adventure!</p>
+                <a class="aboutus_link" href="about.html">Find more about us HERE!</a>
+                <p class="extra_grid_item3">Contact us if you have questions or concerns, we are happy to help!</p>
+                <a class="contactus_link" href="contact.html">Contact us HERE!</a>
             </div>
-            <section class="extra_grid">
-                    <img class="extra_grid_img1" src="images/rafting4.jpg" alt="history img" width="300">
-                    <img class="extra_grid_img2" src="images/rafting-under100kb.jpg" alt="rafting_ing" width="300">
-                    <p class="extra_grid_item2">We love you! Our About Us page has many insights into the beauty and life of The Rapids Adventure!</p>
-                    <button class="aboutus_link_button" type="submit"> <a class="aboutus_link" href="about.html">Learn our history NOW!</a>
-                    </button>
-                    <p class="extra_grid_item3">Contact us</p>
-                    <button class="contactus_link_button" type="submit"> <a class="contactus_link" href="contact.html">Contact us HERE!</a>
-            </section>
-            <section class="adventure_grid">
-                <h2 class="adventure_grid_title">Adventure Awaits You</h2>
-                 <figure class="adventure_grid_img1">
-                    <img class="adventure_grid_img1" src="images/jackalope-west-02HBQ2w_yak-unsplash-under100kb.jpg" alt="rafting image">
-                    <figcaption>rafting img</figcaption>
-                 </figure>
-                <figure class="adventure_grid_img2">
-                    <img class="adventure_grid_img2" src="images/raftingsplashunder100kb.jpg" alt="rafting image 2">
-                    <figcaption>rafting img</figcaption>
-                </figure>
-                <figure class="adventure_grid_img3">
-                    <img class="adventure_grid_img3" src="images/rafting2-under100kb.jpg" alt="rafting image 3">
-                    <figcaption>rafting img</figcaption>
-                </figure>
-                <figure class="adventure_grid_img4">
-                    <img class="adventure_grid_img4" src="images/rafting4.jpg" alt="rafting image 4">
-                    <figcaption>rafting img</figcaption>
-                </figure>
-                <figure class="adventure_grid_img5">
-                    <img class="adventure_grid_img5" src="images/rafting-under100kb.jpg" alt="rafting image 5">
-                    <figcaption>rafting img</figcaption>
-                </figure>
-            </section>
+            <form class="form_homepage">
+                <fieldset class="fieldset_homepage">
+                    <legend class="legend_newsletter">Subscribe to our Newsletter</legend>
+                    <p class="discounts">For trip discounts, what the season and weather is like, and much more!</p>
+                    <div class="form_item column2 fullname">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="column2 email">
+                        <label for="useremail">Email: </label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                    <button class="newsletter_button" type="submit">Subscribe!</button>
+                </fieldset>
+            </form>
         </main>
         <footer>
-            <p class="copyright">©️2024 | The Rapids | Carter Arnold</p>
+            <p class="copyright">©️2024 | The Rapids Adventure | Carter Arnold</p>
+            <nav class="wireframe_link_nav">
+                <a class="wireframe_link" href="https://app.moqups.com/M8ska4aVdYQgK0sNBHYeOfz9kdGQOVZg/view/page/a41169e55">Wireframe</a>
+            </nav>
             <nav class="social_links_nav">
                 <a class="social_links" href="https://www.pinterest.com/">
                     <img src="images/64px-Pinterest.svg.png" alt="Pinterest">

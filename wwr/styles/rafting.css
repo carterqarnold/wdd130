@@ -6,11 +6,16 @@
     --accent1-color-bluepurple : #587694;
     --accent2-color-bluegreen : #2596BE;
     }
+
+    html{
+        width: 80%;
+        margin: 0 auto;
+    }
+
     * {
     text-decoration : none;
     margin : 0 auto;
     padding : 0;
-    
     }
     .gitem1 {
     border : black solid 1px;
@@ -33,7 +38,7 @@
 
     a{
     color : black;
-    padding: .4rem;
+    padding: .5rem;
     border-left : 0.05rem solid black;
     padding-left: .55rem;
     }
@@ -94,7 +99,7 @@
         display: grid;
         grid-template: 20%/35% 30% 35%;
         background-color: rgb(161, 161, 168);
-        margin-top: 20.7rem;
+        margin-top: 23rem;
         width: 73rem;
         padding: 1rem;
     }
@@ -316,7 +321,7 @@
         padding: 15px;
     }
 
-    .email{
+    .contact_email{
         width: 18rem;
         padding-left: 2.7rem;
     }
@@ -419,58 +424,45 @@
         line-height: 3rem;
     }
 
-    .trip_link_button{
-        position: relative;
-        top: -12rem; right: 45rem;
-        background-color: rgb(225, 240, 161);
-        /* border: .1rem solid rgb(13, 14, 13); */
-        border: none;
-        border-radius: 50%;
-
-    }
-
-    .aboutus_link_button{
-        margin: 0 auto 80rem;
-        grid-row: 4;
-        grid-column: 2;
-        height: 3rem;
-        width: 10rem;
-        border: .1rem solid black;
-        border-radius: 39%;
-        background-color: rgb(117, 221, 126);
-    }
-
-    .contactus_link_button{
+    .contactus_link{
         grid-row: 8;
         grid-column: 2;
-        height: 3rem;
-        width: 10rem;
+        height: 2rem;
+        width: 7rem;
         border-radius: 5%;
-        background-color: rgb(117, 221, 126);
+        background-color: rgb(181, 248, 187);
         border: .1rem solid black;
-        
-    }
-
-    .contactus_link{
-        border: none;
-        padding: 0;
+        text-align: center;
+        padding: .5rem;
     }
 
     .aboutus_link{
+        grid-row: 4;
+        grid-column: 2;
        border: none;
-       
+       height: 2rem;
+        width: 8rem;
+        border-radius: 5%;
+        background-color: rgb(181, 248, 187);
+        border: .1rem solid black;
+        text-align: center;
+        padding: .5rem;
     }
 
     .trip_link{
-        color: rgb(7, 7, 7);
+        position: relative;
+        top: -12rem; right: 45rem;
+        background-color: rgb(250, 247, 96);
         border: none;
+        border-radius: 6.3%;
+        color: rgb(7, 7, 7)
     }
 
     .extra_grid{
         height: 25rem;
         display: grid;
         grid-template: 20% 5% 5% 20% 20% 5% 5% 20%/35% 65%;
-        background-color: rgb(130, 213, 252);
+        background-color: rgb(144, 211, 241);
         margin-top: 39rem;
         width: 73.1em;
         padding: 15px;
@@ -493,14 +485,236 @@
     }
 
     .extra_grid_item2{
+        color: #020202;
         grid-row: 2;
         grid-column: 2;
         
     }
 
     .extra_grid_item3{
+        color: #020202;
         grid-row: -4/-2;
         grid-column: 2;
     }
 
+    .fieldset_homepage{
+        display: grid;
+        grid-template: 20% 20% 20% 20% 20%/26% 47% 26%;
+        margin: .7rem 0;
+        background-color: #82faa0;
+    }
+
+    .legend_newsletter{
+        color: #186818;
+        font-size: x-large;
+    }
+
+    .discounts{
+        width: 32rem;
+        padding-top: 1rem;
+        color: #020202;
+        grid-column: 2;
+    }
+
+    .email{
+        width: 18rem;
+        padding-left: 19.55rem;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .fullname{
+        width: 18rem;
+        padding: 4rem 0 1rem 7.7rem;
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .benifits{
+        width: 20rem;
+        color: #020202;
+        grid-column: 1;
+        grid-row: 4;
+        padding-left: 15.7rem;
+        text-align: center;
+    }
+
+    .newsletter_button{
+        height: 2rem;
+        margin-left: 19.3rem;
+        margin-top: 1.5rem;
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    /*Trips page*/
+
+   .trips_h1{
+        background-color: rgba(167, 165, 165, 0.0);
+        color: rgb(250, 250, 250);
+    } 
+    .call_to_contactus{
+        padding: .75rem;
+        height: 8.3rem;
+        width: 68.5em;
+        background-color : rgba(87, 103, 175, 0.302);
+        position : absolute;
+        top : 6rem;
+        left: 2.3rem;
+        text-align: center;
+        word-spacing: .2rem;
+        line-height: 1.5rem;
+    }
+
+    .call_to_contactus_h2{
+        margin-bottom: 1rem;
+        color: #30033d;
+    }
+
+    .trip_contactus_link{
+        background-color: #10b3ee;
+        border: .1rem solid black;
+        width: 8rem;
+        text-align: center;
+        border-radius: 23%;
+        color: #020202;
+    }
+
+    .to_contact_grid{
+        height: 35rem;
+        display: grid;
+        grid-template: 15% 44% 28% 2% /4.5% 30% 30% 30% 4.5%;
+        background-color: rgb(144, 211, 241);
+        margin: 23rem 0 1rem 0;
+        width: 73.1em;
+        padding: 2.8rem .90rem 2rem .90rem;
+    }
+
+    .to_contact_grid_h21{
+        padding-top: 1rem;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .to_contact_grid_h22{
+        padding-top: 1rem;
+        grid-column: 3;
+        grid-row: 1;
+    }
     
+    .to_contact_grid_h23{
+        padding-top: 1rem;
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    .to_contact_grid_img1{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .to_contact_grid_img2{
+        grid-row: 2;
+        grid-column: 3;
+    }
+
+    .to_contact_grid_img3{
+        grid-row: 2;
+        grid-column: 4;
+    }
+
+    .to_contact_grid_item1{
+        padding: 1rem 1rem 3rem 1rem;
+        color: #020202;
+        grid-row: 3;
+        grid-column: 2;
+        text-align: center;
+    }
+
+    .to_contact_grid_item2{
+        padding: 1rem;
+        color: #020202;
+        grid-row: 3;
+        grid-column: 3;
+        text-align: center;
+    }
+
+    .to_contact_grid_item3{
+        padding: 1rem;
+        color: #020202;
+        grid-row: 3;
+        grid-column: 4;
+        text-align: center;
+    }
+
+    .trip_book_link{
+        height: 1rem;
+        width: 8rem;
+        grid-row: 4;
+        grid-column: 2;
+        background-color: #5789f7;
+        border: .1rem solid black;
+        text-align: center;
+    }
+
+    .trip_book_link2{
+        height: 1rem;
+        width: 8rem;
+        grid-row: 4;
+        grid-column: 3;
+        background-color: #5789f7;
+        border: .1rem solid black;
+        text-align: center;
+    }
+
+    .trip_book_link3{
+        height: 1rem;
+        width: 8rem;
+        grid-row: 4;
+        grid-column: 4;
+        background-color: #5789f7;
+        border: .1rem solid black;
+        text-align: center;
+    }
+
+    table {
+        width: 60rem;
+        margin-bottom: 1rem;
+        border: .2rem solid rgb(241, 29, 29);
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+      }
+      
+      caption {
+        caption-side: bottom;
+        padding: 10px;
+        font-weight: bold;
+      }
+      
+      thead{
+        background-color: rgb(250, 156, 208);
+      }
+
+      tbody{
+        background-color: rgb(245, 181, 224);
+      }
+
+      .trip_titles{
+        background-color: rgb(252, 124, 162);
+      }
+
+      .corporate_col{
+        width: 33.3%;
+      }
+      
+      th,
+      td {
+        border: .1rem solid rgb(252, 70, 70);
+        padding: 1rem;
+      }
+      
+      td{
+        text-align: center;
+      }
+      
