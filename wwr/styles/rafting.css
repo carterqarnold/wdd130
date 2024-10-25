@@ -459,7 +459,7 @@
     }
 
     .extra_grid{
-        height: 25rem;
+        height: 27rem;
         display: grid;
         grid-template: 20% 5% 5% 20% 20% 5% 5% 20%/35% 65%;
         background-color: rgb(144, 211, 241);
@@ -488,13 +488,16 @@
         color: #020202;
         grid-row: 2;
         grid-column: 2;
-        
+        text-align: center;
+        margin-bottom: 2rem;
     }
 
     .extra_grid_item3{
         color: #020202;
         grid-row: -4/-2;
         grid-column: 2;
+        text-align: center;
+        margin-bottom: 2rem;
     }
 
     .fieldset_homepage{
