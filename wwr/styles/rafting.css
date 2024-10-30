@@ -243,6 +243,7 @@
     }
 
     .copyright{
+        color: black;
         grid-column: 2;
         align-self: center;
     }
